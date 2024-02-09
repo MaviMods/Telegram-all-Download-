@@ -1,6 +1,5 @@
 from pyrogram import Client, filters
 from PIL import Image
-import qrcode
 from info import REQUESTED_CHANNEL
 
 

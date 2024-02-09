@@ -39,9 +39,9 @@ S_CHANNEL = environ.get('S_CHANNEL', "")
 
 # for mongodb
 DATABASE_NAME = os.environ.get("DB_NAME", "Cluster0")     
-DATABASE_URI  = os.environ.get("DB_URL", "")
+DATABASE_URI  = os.environ.get("DB_URL", "mongodb+srv://anime:anime@cluster0.jaqb208.mongodb.net/?retryWrites=true&w=majority")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "")
+MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://anime:anime@cluster0.jaqb208.mongodb.net/?retryWrites=true&w=majority")
 
 # for google ai 
 # how to get the api key == https://t.me/sd_bots/256 (copy this link and search on telegram)

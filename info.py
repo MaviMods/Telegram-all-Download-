@@ -38,7 +38,7 @@ S_GROUP = environ.get('S_GROUP', "")
 S_CHANNEL = environ.get('S_CHANNEL', "")
 
 # for mongodb
-DATABASE_NAME = os.environ.get("DB_NAME", "")     
+DATABASE_NAME = os.environ.get("DB_NAME", "Discord")     
 DATABASE_URI  = os.environ.get("DB_URL", "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "")

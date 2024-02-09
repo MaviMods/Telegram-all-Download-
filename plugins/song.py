@@ -51,7 +51,7 @@ async def song(_, message):
         await k.edit("ᴜᴘʟᴏᴀᴅɪɴɢ")
         song_title = info.get("title", "Unknown Title")   
         song_caption = f"**🍃 {song_title}**\n" + \
-                       f"🍂 sᴜᴘᴘᴏʀᴛ: <a href='https://t.me/sd_bots'>sᴅ ʙᴏᴛs</a>" 
+                       f"🍂 sᴜᴘᴘᴏʀᴛ: <a href='https://t.me/mavimods2'>MᴀᴠɪMᴏᴅs</a>" 
 
         await message.reply_audio(
             path,

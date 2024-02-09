@@ -284,7 +284,7 @@ async def callback_handle(client, query):
         
     elif query.data == 'rrb':
         buttons = [[
-            InlineKeyboardButton("🌿 Repo", url="https://github.com/MrTG-CodeBot/Obanai"),
+            InlineKeyboardButton("🌿 Repo", url="x"),
             InlineKeyboardButton("🐞 ʀᴇᴘᴏʀᴛ ʙᴜɢs", url=S_GROUP)
             ],[
             InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='about')

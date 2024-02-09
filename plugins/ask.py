@@ -16,14 +16,14 @@ async def ai_generate(client, message):
         return
 
     user_input = " ".join(user_input)
-    s = await message.reply_sticker("CAACAgUAAxkBAAIj-mWlAjaflbkifrOJPnnxp2edkuD-AALPDAACzIApVcg9eEkNQbBGHgQ")
+    s = await message.reply_sticker("CAACAgUAAxkBAAIBO2XGao8owwwyaZryzQe4lwz61yVKAAK7DwACk7IwVv_mbBLCsdjtHgQ")
   
     if user_input.lower() in ["who is your owner", "what is your owner name"]:  
         buttons = [[
-            InlineKeyboardButton("developer", url="https://t.me/sd_bots")
+            InlineKeyboardButton("developer", url="https://t.me/mavimods2")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_sticker("CAACAgUAAxkBAAIjWGWkDiJW1Dyn6n8CjbbwxExf0FEIAAJyCgACywLBVKKgVw2dk9PbHgQ")
+        await message.reply_sticker("CAACAgUAAxkBAAIBO2XGao8owwwyaZryzQe4lwz61yVKAAK7DwACk7IwVv_mbBLCsdjtHgQ")
         await message.reply_text(text=f"ʜᴇʏ {message.from_user.mention}", reply_markup=reply_markup)
         return
       
@@ -67,8 +67,8 @@ async def ai_generate(client, message):
 @Client.on_message(filters.command("ai") & filters.private)
 async def ai_generate_private(client, message):
   buttons = [[
-    InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/sdbots_support")
+    InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/mavibot_support")
   ]]
   reply_markup = InlineKeyboardMarkup(buttons)
-  await message.reply_sticker("CAACAgUAAxkBAAIjWGWkDiJW1Dyn6n8CjbbwxExf0FEIAAJyCgACywLBVKKgVw2dk9PbHgQ")
+  await message.reply_sticker("CAACAgUAAxkBAAIBO2XGao8owwwyaZryzQe4lwz61yVKAAK7DwACk7IwVv_mbBLCsdjtHgQ")
   await message.reply_text(text=f"ʜᴇʏ {message.from_user.mention}\nᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪɴ ɢʀᴏᴜᴘ", reply_markup=reply_markup)
